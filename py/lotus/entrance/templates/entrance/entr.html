@@ -1,0 +1,32 @@
+{% extends 'entrance/layout.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="enter_page">
+            <div class="enter">
+                <label for="enter_email">E-mail:</label>
+                <input type="email" class="form-control" id="enter_email"
+                       placeholder="example@example.com" size="30" required>
+            </div>
+            <div class="enter">
+                <label for="enter_pass">Пароль:</label>
+                <input type="password" class="form-control" id="enter_pass"
+                       placeholder="password" minlength="8" size="30" aria-describedby="passHelp" required>
+                <small id="passHelp" class="form-text text-muted">Пароль состоит минимум из 8 символов.</small>
+            </div>
+            <center>
+                <div class="enter">
+                    <button type="button" class="btn btn-secondary">Войти</button>
+                </div>
+                <div class="enter">
+                    <label>Нет аккаунта?</label>
+                    <button type="button" class="btn btn-outline-info" href="reg">Регистрация</button>
+                </div>
+            </center>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

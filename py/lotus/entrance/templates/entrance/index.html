@@ -1,0 +1,66 @@
+{% extends 'entrance/layout.html' %}
+{% load static %}
+{% block content %}
+<div class="container mt-5">
+	<div class="row">
+
+		<div class="col-md-3">
+			<div class="playlist">
+				<div class="image">
+					<img src="{% static 'entrance/img/nature9.png'%}" alt="nature">
+				</div>
+				<div class="info">
+					<a href="nature">Звуки природы</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="playlist">
+				<div class="image">
+					<img src="{% static 'entrance/img/ufo3.jpg'%}" alt="space">
+				</div>
+				<div class="info">
+					<a href="#">Космос</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="playlist">
+				<div class="image">
+					<img src="{% static 'entrance/img/ufo5.jpg'%}" alt="micro">
+				</div>
+				<div class="info">
+					<a href="#">ASMR</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="playlist">
+				<div class="image">
+					<img src="{% static 'entrance/img/lofi2.jpg'%}" alt="lofi">
+				</div>
+				<div class="info">
+					<a href="#">Lo-fi</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div class="playlist">
+				<div class="image">
+					<img src="{% static 'entrance/img/lofi1.jpg'%}" alt="whitenoise">
+				</div>
+				<div class="info">
+					<a href="#">Белый шум</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+{% endblock %}
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

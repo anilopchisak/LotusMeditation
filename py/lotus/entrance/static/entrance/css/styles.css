@@ -1,0 +1,263 @@
+/**/
+
+            /*LAYOUT - ОСНОВНЫЕ НАСТРОЙКИ, МЕНЮ*/ /**/
+
+body { /*настройки сайта по умолчанию*/
+    background: linear-gradient(to bottom, #fff4e7, #e9cfd9, #a098bf); /*#F2F2F2 - белый rgba(255, 244, 231, .1),rgba(201, 137, 161, .1),rgba(131, 121, 171, .1)*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    background-attachment: fixed;
+    font-family: century gothic;
+    font-size: 16px;
+    color: #0D0D0D; /*#0D0D0D - черный*/
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar { /*настройка области, где будет расположено меню - контейнер*/
+    width: 100%; /*ширина меню*/
+    height: auto; /*высота меню*/
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .1); /*тень от меню rgba(0, 0, 0, .1)     background: #F2F2F2;*/
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar .container { /*чтобы в контейнере все было по середине*/
+    /*height: inherit;*/ /*наследуем высоту от класса .navbar - в теории нужно
+    чтобы все элементы меню были по середине, на деле не работает у меня*/
+    display: flex;
+    justify content: space-between;
+    align-items: center;
+}
+
+.navbar_logo {
+    display: flex;
+}
+
+.navbar_logo img {
+    margin-right: 10px;
+    float: left;
+    width: auto;
+    height: 50px;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbar-menu li {
+    display: inline-block; /*чтобы элементы меню были в линию*/
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.navbar-menu li a { /*настройка пунктов меню, самих надписей*/
+    display: inline-block; /*чтобы элементы меню были в линию*/
+    color: #0D0D0D;
+    font-weight: 500;
+    font-size: 18px;
+    opacity: 0.7; /*прозрачность пунктов меню*/
+    text-decoration: none;
+    padding: 10px; /*расстояние между пунктами меню*/
+    transition: all .2s ease-in-out; /*плавно изменяется при наведении*/
+}
+
+.navbar-menu li a:hover { /*эффекты при наведении на пункты меню*/
+    color: #e1256b;
+}
+
+.navbar-brand { /*настройка названия lotus meditation*/
+    font-size: 30px;
+    text-decoration: none;
+    color: #0D0D0D;
+    letter-spacing: 7px;
+    transition: all .25s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #e1256b;
+}
+
+
+
+            /*INDEX - ПЛЕЙЛИСТЫ*/ /**/
+
+.playlist { /*-container*/
+    margin-bottom: 30px;
+    margin-right: 30px;
+    position: relative;
+    width: 100%;
+    transition: all .1.5s ease-in-out;
+}
+
+.image:hover {
+    box-shadow: 0px 0px 15px rgba(231, 82, 137, .6);
+    border-radius: 30px;
+}
+
+.image {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.image img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #0D0D0D;
+    transition: all .2s ease-in-out;
+    margin-left: 8%;
+    font-size: 20px;
+    position: center;
+}
+
+.info a:hover {
+    color:  #fff4e7;
+    font-size: 22px;
+}
+
+
+
+            /*NATURE - ПЛЕЙЛИСТ*/ /**/
+
+.musicpage-img {
+    margin: 10px;
+}
+
+.musicpage-img img {
+    height: 700px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgba(231, 82, 137, .4);
+    border: solid rgba(0, 0, 0, .1);
+    margin: 30px;
+    width: auto;
+}
+
+.musicpage h3 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.musicpage p {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.musicpage audio {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+           /*ВХОД*/ /**/
+
+.enter_page{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0px 0px 15px rgba(231, 82, 137, .4);
+    border-radius: 30px;
+    border: solid rgba(0, 0, 0, .1);
+    border-width: 0.1ex 0.1ex 0.1ex;
+    padding: 20px;
+    margin-top: 3%;
+}
+
+.enter {
+    margin: 20px;
+}
+
+.enter label, a {
+    margin-right: 10px;
+}
+
+.enter .btn-secondary {
+    background-color: #d01d5f;
+    border-color: #d01d5f;
+    border-radius: 20px;
+    width: 100px;
+}
+.enter .btn-secondary:hover {
+    background-color: #ba1a55;
+    border-color: #ba1a55;
+}
+
+.enter .btn-outline-info{
+    border-color:  #e75289;
+    color:  #e75289;
+    border-radius: 20px;
+}
+.enter .btn-outline-info:hover{
+    background-color:  #ba1a55;
+    border-color:  #ba1a55;
+    color: #fff;
+}
+
+           /*ДЫХАТЕЛЬНЫЕ ПРАКТИКИ*/ /**/
+
+.paragraph {
+    box-shadow: 0px 0px 15px rgba(231, 82, 137, .4);
+    border-radius: 30px;
+    border: solid rgba(0, 0, 0, .1);
+    border-width: 0.1ex 0.1ex 0.1ex;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    position: relative;
+    width: 100%;
+    transition: all .1.5s ease-in-out;
+    background: #fff;
+}
+
+.paragraph h2, h3 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.paragraph p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph li {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.paragraph h6 {
+    margin-top: 30px;
+    margin-left: 30px;
+    opacity: .5;
+}
+
+
+           /*О ПРОЕКТЕ*/ /**/
+
+.about-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0px 0px 15px rgba(231, 82, 137, .4);
+    border-radius: 30px;
+    border: solid rgba(0, 0, 0, .1);
+    border-width: 0.1ex 0.1ex 0.1ex;
+    padding: 20px;
+    margin-top: 3%;
+    background: #fff;
+}
+

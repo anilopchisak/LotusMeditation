@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99cabaae-a280-4c74-82be-e37561016d99" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../lotus_meditation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/py.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/py.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/static/entrance/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/entrance/static/entrance/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/static/entrance/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/static/entrance/img/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/templates/entrance/entr.html" beforeDir="false" afterPath="$PROJECT_DIR$/entrance/templates/entrance/entr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/templates/entrance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/entrance/templates/entrance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/templates/entrance/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/entrance/templates/entrance/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrance/templates/entrance/nature.html" beforeDir="false" afterPath="$PROJECT_DIR$/entrance/templates/entrance/nature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lotus/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lotus/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2P8fO4MKRmYim6O91xkdSc1QA1h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Archive/Study/Repository/Lotus"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99cabaae-a280-4c74-82be-e37561016d99" name="Changes" comment="" />
+      <created>1682843595108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682843595108</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
