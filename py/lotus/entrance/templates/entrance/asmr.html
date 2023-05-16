@@ -1,0 +1,24 @@
+{% extends 'entrance/layout.html' %}
+{% load static %}
+{% block content %}
+<div class="container mt-5">
+    <center>
+        <h1>ASMR</h1>
+
+        <div class="musicpage-img">
+            <img src="{% static 'entrance/img/ufo5.jpg'%}" alt="nature">
+        </div>
+
+        <div class="musicpage">
+            <p>Calm flow</p> <audio controls src="{% static '/media/calm_flow.mp3'%}"></audio>
+            <p>Crickets</p> <audio controls src="{% static '/media/crickets.mp3'%}"></audio>
+            <p>Forest</p> <audio controls src="{% static '/media/forest.mp3'%}"></audio>
+            <p>With a cat by the fire</p> <audio controls src="{% static '/media/murmuring_by_the_fire.mp3'%}"></audio>
+            <p>Rain</p> <audio controls src="{% static '/media/rain.mp3'%}"></audio>
+            <p>Sea</p> <audio controls src="{% static '/media/sea.mp3'%}"></audio>
+        </div>
+
+    </center>
+</div>
+
+{% endblock %}

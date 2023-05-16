@@ -10,5 +10,13 @@ urlpatterns = [
     path('about', views.about),
     path('breathe', views.breathe),
     path('entr', views.entr),
+    path('reg', views.reg),
     path('nature', views.nature),
+    path('space', views.space),
+    path('asmr', views.asmr),
+    path('lofi', views.lofi),
+    path('whitenoise', views.whitenoise),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

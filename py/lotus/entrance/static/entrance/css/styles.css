@@ -188,7 +188,7 @@ body { /*настройки сайта по умолчанию*/
     background-color: #d01d5f;
     border-color: #d01d5f;
     border-radius: 20px;
-    width: 100px;
+    width: auto;
 }
 .enter .btn-secondary:hover {
     background-color: #ba1a55;
